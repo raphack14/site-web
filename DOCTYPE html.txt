@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site Web Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            margin: 15px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur mon site web test</h1>
+        <p>Ceci est un exemple de site web en HTML</p>
+    </header>
+
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Je suis un développeur web en herbe passionné par la création de solutions numériques pour améliorer le quotidien.</p>
+    </section>
+
+    <section id="services">
+        <h2>Mes Services</h2>
+        <ul>
+            <li>Développement web</li>
+            <li>Conception d'applications</li>
+            <li>Consultation en technologie</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Vous pouvez me contacter à l'adresse suivante : <a href="mailto:email@example.com">email@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mon Site Web Test. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
